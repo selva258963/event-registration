@@ -1,331 +1,501 @@
-# Web Design for a Software Product Company
+# Event Registration Web Application
 
 ## AIM:
-
-To design a static website for a software product company company.
+To design, develop and deploy a web application for event registration.
 
 ## DESIGN STEPS:
 
 ### Step 1:
-
-Requirement collection.
+Create number of pages as needed
 
 ### Step 2:
-
-Creating the layout using HTML and CSS.
+Design the web pages
 
 ### Step 3:
-
-Updating the sample content.
+Create HTML and CSS codes for the web pages
 
 ### Step 4:
-
-Choose the appropriate style and color scheme.
+Add the needed images for web pages
 
 ### Step 5:
-
-Validate the layout in various browsers.
-
-### Step 6:
-
-Validate the HTML code.
+Add styles for webpages
 
 ### Step 6:
+Validate the HTML and CSS code.
 
+### Step 7:
 Publish the website in the given URL.
 
 ## PROGRAM :
-```product.html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>EduSoft Private Limited</title>
-    <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
-  </head>
-
-  <body>
-    <div class="container">
-      <div class="banner">EduSoft Private Limited.</div>
-      <div class="menu">
-        <div class="menuitem"><a href="/static/home.html">Home</a></div>
-        <div class="menuitemselected">
-          <a href="/static/products.html">Products</a>
-        </div>
-        <div class="menuitem"><a>People</a></div>
-        <div class="menuitem"><a>Contact Us</a></div>
-      </div>
-      <div class="content">
-        <div class="productcontent">    
-          <h1>Our Premium Products</h1>
-          <div class="productitems">
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/tally_gold.png" alt="product image">
-                  </div>
-                  <div class="itemname">Tally Gold</div>
-                  <div class="itemprice">Price: Rs.40,000.00 </div>
-              </div>
-              <div class="productitem"> 
-                  <div class="itemimage">
-                  <img src="/static/img/tally_silver.png"  alt="product image">
-                  </div>
-                  <div class="itemname">Tally Silver</div>
-                  <div class="itemprice">Price: Rs.10,000.00 </div>
-              </div>
-          </div>
-          </div>        
-      </div>
-      <div class="footer">
-        Copyright &#169; 2021 EduSoft Private Limited, Developed by Obed Otto.
-      </div>
-    </div>
-  </body>
-</html>
-
-home.html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>EduSoft Private Limited</title>
-    <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
-  </head>
-
-  <body>
-    <div class="container">
-      <div class="banner">EduSoft Private Limited.</div>
-      <div class="menu">
-        <div class="menuitemselected"><a href="/static/home.html">Home</a></div>
-        <div class="menuitem"><a href="/static/products.html">Products</a></div>
-        <div class="menuitem"><a>People</a></div>
-        <div class="menuitem"><a>Contact Us</a></div>
-      </div>
-      <div class="content">
-        <div class="homecontent">
-          <h1>About Us</h1>
-          <img src="./img/building.png" alt="Building" />
-          <div class="contenttext">
-            At Tally, we believe in the power of technology to make business
-            owners efficient, empowered and happier, so they can focus on what
-            matters most for their business. We design our products to focus on
-            just that to make our products work for you, and not the other way
-            around.
-            <br />
-            Our new product TallyPrime takes this to a new level, making your
-            start to automation, or your switch to Tally simpler than ever
-            before. You can now discover the product much more easily and make
-            the product do more for you, without learning anything new. There is
-            greater flexibility as the product adapts to your business and your
-            way of working. And the transformed look and feel will only make you
-            love the product even more.
-            <ul>
-              <li>Simple to learn, easier to use</li>
-              <li>Insightful , actionable & customizable reports</li>
-              <li>Anywhere, anytime and secure access</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer">
-        Copyright &#169; 2021 EduSoft Private Limited, Developed by Arun kumar.
-      </div>
-    </div>
-  </body>
-</html>
-
-people.html
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>GAMIN' IS NOT A CRIME</title>
-    <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="icon" href="./img/banner1.jpg" type="image/x-icon" />
-  </head>
-
-  <body>
-   <div class="container">
-      <div class="banner">EduSoft Private Limited.</div>
-      <div class="menu">
-        <div class="menuitem"><a href="/static/home.html">Home</a></div>
-        <div class="menuitemselected"><a href="/static/products.html">Products</a></div>
-        <div class="menuitem"><a href="/static/people.html">People</a></div>
-        <div class="menuitem"><a href="/static/contact.html">Contact Us</a></div>
-      </div>
-            <h1>Our Team</h1>
-            <div class="peopleitems">
-                <div class="peopleitem">
-                    <div class="peopleimage">
-                    <img src="./img/peo1.jpg" alt="people1 image">
-                    </div>
-                    <div class="peoplename">MR.Deniz</div>
-                    <div class="peoplepos">MD and CEO</div>
-                </div>
-                <div class="peoplecontent"> 
-                  <div class="peopleitems">
-                      <div class="peopleitem"> 
-                          <div class="peopleimage">
-                          <img src="./img/peo2.jpg" alt="people2 image">
-                          </div>
-                          <div class="peoplename">MR.Albert</div>
-                          <div class="peoplepos">CPO</div>
-                      </div>
-                      <div class="peoplecontent">   
-                      
-                        <div class="peopleitems">
-                            <div class="peopleitem"> 
-                                <div class="peopleimage">
-                                <img src="./img/peo3.jpg" alt="people3 image">
-                                </div>
-                                <div class="peoplename">MS.Filiz</div>
-                                <div class="peoplepos">CHRO</div>
-                            </div>
-                      
-                        <div class="peoplecontent">  
-                                
-                                    <div class="peopleitems">
-                                        <div class="peopleitem"> 
-                                            <div class="peopleimage">
-                                            <img src="./img/peo4.jpg" alt="people4 image">
-                                            </div>
-                                            <div class="peoplename">MR.Sylvester</div>
-                                            <div class="peoplepos">Joint MD and CTO</div>
-                              </div>
-                        <div class="peoplecontent"> 
-                                          
-                                          <div class="peopleitems">
-                                              <div class="peopleitem"> 
-                                                  <div class="peopleimage">
-                                                  <img src="./img/peo5.jpg" alt="people5 image">
-                                                  </div>
-                                                  <div class="peoplename">MR.William</div>
-                                                  <div class="peoplepos">Head,Retail Sales</div>
-                               </div>
-                               <div class="peoplecontent">    
-                           
-                                <div class="peopleitems">
-                                    <div class="peopleitem"> 
-                                        <div class="peopleimage">
-                                        <img src="./img/peo6.jpg" alt="people6 image">
-                                        </div>
-                                        <div class="peoplename">Ms.Olivia</div>
-                                        <div class="peoplepos">CFO</div>
-                     </div>
-
-
-                
-          </div>
-        </div>
-      <div>
-      <div class="footer">
-        Copyright &#169; 2023 Gamer'sworld.MGamers.org, Developed by Arun kumar.
-      </div>
-     </div>
-     </body>
-</html>
- 
- home.html
-
- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>GAMIN' IS NOT A CRIME</title>
-    <link rel="stylesheet" href="./css/layout.css" />
-    <link rel="icon" href="./img/banner1.jpg" type="image/x-icon" />
-  </head>
-
-  <body>
-   <div class="container">
-      <div class="banner">EduSoft Private Limited.</div>
-      <div class="menu">
-        <div class="menuitem"><a href="/static/home.html">Home</a></div>
-        <div class="menuitemselected"><a href="/static/products.html">Products</a></div>
-        <div class="menuitem"><a href="/static/people.html">People</a></div>
-        <div class="menuitem"><a href="/static/contact.html">Contact Us</a></div>
-      </div>
-            <h1>Our Team</h1>
-            <div class="peopleitems">
-                <div class="peopleitem">
-                    <div class="peopleimage">
-                    <img src="./img/peo1.jpg" alt="people1 image">
-                    </div>
-                    <div class="peoplename">MR.Deniz</div>
-                    <div class="peoplepos">MD and CEO</div>
-                </div>
-                <div class="peoplecontent"> 
-                  <div class="peopleitems">
-                      <div class="peopleitem"> 
-                          <div class="peopleimage">
-                          <img src="./img/peo2.jpg" alt="people2 image">
-                          </div>
-                          <div class="peoplename">MR.Albert</div>
-                          <div class="peoplepos">CPO</div>
-                      </div>
-                      <div class="peoplecontent">   
-                      
-                        <div class="peopleitems">
-                            <div class="peopleitem"> 
-                                <div class="peopleimage">
-                                <img src="./img/peo3.jpg" alt="people3 image">
-                                </div>
-                                <div class="peoplename">MS.Filiz</div>
-                                <div class="peoplepos">CHRO</div>
-                            </div>
-                      
-                        <div class="peoplecontent">  
-                                
-                                    <div class="peopleitems">
-                                        <div class="peopleitem"> 
-                                            <div class="peopleimage">
-                                            <img src="./img/peo4.jpg" alt="people4 image">
-                                            </div>
-                                            <div class="peoplename">MR.Sylvester</div>
-                                            <div class="peoplepos">Joint MD and CTO</div>
-                              </div>
-                        <div class="peoplecontent"> 
-                                          
-                                          <div class="peopleitems">
-                                              <div class="peopleitem"> 
-                                                  <div class="peopleimage">
-                                                  <img src="./img/peo5.jpg" alt="people5 image">
-                                                  </div>
-                                                  <div class="peoplename">MR.William</div>
-                                                  <div class="peoplepos">Head,Retail Sales</div>
-                               </div>
-                               <div class="peoplecontent">    
-                           
-                                <div class="peopleitems">
-                                    <div class="peopleitem"> 
-                                        <div class="peopleimage">
-                                        <img src="./img/peo6.jpg" alt="people6 image">
-                                        </div>
-                                        <div class="peoplename">Ms.Olivia</div>
-                                        <div class="peoplepos">CFO</div>
-                     </div>
-
-
-                
-          </div>
-        </div>
-      <div>
-      <div class="footer">
-        Copyright &#169; 2023 Gamer'sworld.MGamers.org, Developed by Arun kumar.
-      </div>
-     </div>
-     </body>
-</html>
 ```
+position: absolute;
+width: 335px;
+height: 47px;
+left: 12px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
 
 
 
-### Home Page:
+/* DEPARTMENTS */
 
-![image](https://github.com/SudharsanamRK/productcompanywebsite/assets/115523484/16509685-5e07-4eda-97f1-218ceea2ebff)
+
+position: absolute;
+width: 335px;
+height: 47px;
+left: 12px;
+top: 221px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* AI-ML */
+
+
+position: absolute;
+width: 335px;
+height: 48px;
+left: 12px;
+top: 287px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* AI-DS */
+
+
+position: absolute;
+width: 335px;
+height: 47px;
+left: 12px;
+top: 344px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* IOT */
+
+
+position: absolute;
+width: 335px;
+height: 47px;
+left: 12px;
+top: 400px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* CS */
+
+
+position: absolute;
+width: 335px;
+height: 47px;
+left: 12px;
+top: 456px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Line 3 */
+
+
+position: absolute;
+width: 360px;
+height: 0px;
+left: 0px;
+top: 63px;
+
+border: 4px solid #0029FF;
+transform: rotate(-0.16deg);
+
+
+/* sec logo 3 */
+
+
+position: absolute;
+width: 118px;
+height: 115px;
+left: 114px;
+top: 85px;
+
+background: url(sec logo.jpg);
+
+```
+```
+position: absolute;
+width: 335px;
+height: 47px;
+left: 25px;
+top: 23px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FF0000;
+
+
+
+/* Line 2 */
+
+
+position: absolute;
+width: 360px;
+height: 0px;
+left: 0px;
+top: 63px;
+
+border: 4px solid #0029FF;
+transform: rotate(-0.16deg);
+
+
+/* Rectangle 2 */
+
+
+position: absolute;
+width: 250px;
+height: 40px;
+left: 55px;
+top: 232px;
+
+background: #00FFF0;
+
+
+/* Rectangle 3 */
+
+
+position: absolute;
+width: 250px;
+height: 40px;
+left: 55px;
+top: 334px;
+
+background: #00FFF0;
+
+
+/* username */
+
+
+position: absolute;
+width: 123px;
+height: 25px;
+left: 57px;
+top: 198px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FF0000;
+
+
+
+/* username */
+
+
+position: absolute;
+width: 123px;
+height: 25px;
+left: 57px;
+top: 198px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FF0000;
+
+
+
+/* username */
+
+
+position: absolute;
+width: 123px;
+height: 25px;
+left: 57px;
+top: 198px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FF0000;
+
+
+
+/* password */
+
+
+position: absolute;
+width: 123px;
+height: 25px;
+left: 55px;
+top: 295px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FF0000;
+
+
+
+/* Rectangle 2 */
+
+
+position: absolute;
+width: 200px;
+height: 45px;
+left: 78px;
+top: 436px;
+
+background: #43F816;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* SUBMIT */
+
+
+position: absolute;
+width: 188px;
+height: 30px;
+left: 84px;
+top: 446px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* sec logo 2 */
+
+
+position: absolute;
+width: 118px;
+height: 115px;
+left: 121px;
+top: 73px;
+
+background: url(sec logo.jpg);
+
+```
+```
+position: absolute;
+width: 335px;
+height: 47px;
+left: 14px;
+top: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Affiliated to Anna University */
+
+
+position: absolute;
+width: 335px;
+height: 47px;
+left: 13px;
+top: 222px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* NIRF Ranked Autonomous Institution */
+
+
+position: absolute;
+width: 335px;
+height: 54px;
+left: 13px;
+top: 287px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Line 1 */
+
+
+position: absolute;
+width: 360px;
+height: 0px;
+left: 0px;
+top: 63px;
+
+border: 4px solid #0029FF;
+transform: rotate(-0.16deg);
+
+
+/* Rectangle 1 */
+
+
+position: absolute;
+width: 200px;
+height: 45px;
+left: 74px;
+top: 376px;
+
+background: #43F816;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* LOGIN */
+
+
+position: absolute;
+width: 188px;
+height: 30px;
+left: 74px;
+top: 384px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* LOGIN */
+
+
+position: absolute;
+width: 188px;
+height: 30px;
+left: 74px;
+top: 384px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* sec logo 1 */
+
+
+position: absolute;
+width: 118px;
+height: 115px;
+left: 122px;
+top: 78px;
+
+background: url(sec logo.jpg);
+```
 ## OUTPUT:
-![image](https://github.com/SudharsanamRK/productcompanywebsite/assets/115523484/83e964ae-ccb6-44e1-8c11-d7cdfa681126)
-![image](https://github.com/SudharsanamRK/productcompanywebsite/assets/115523484/627ef5a5-1eb2-485c-a184-53d0be7d88d2)
-![image](https://github.com/SudharsanamRK/productcompanywebsite/assets/115523484/d7621228-df0a-4a56-9118-bf5c9ecf66ee)
-## Result:
+![image](https://github.com/SudharsanamRK/event-registration/assets/115523484/f2af815f-421b-4ab6-954e-381c45a25cd6)
 
-Thus a website is designed for the software product company and the HTML,CSS code are validated.
+![image](https://github.com/SudharsanamRK/event-registration/assets/115523484/3ca4e72a-5d95-49fe-8d68-ed6a4a4b8939)
+
+![image](https://github.com/SudharsanamRK/event-registration/assets/115523484/53c35c25-811e-4f00-8674-c1bf9258283e)
+
+
+## Result:
+The program to design ,develop and deploy a web application for event registration is completed successfully.
